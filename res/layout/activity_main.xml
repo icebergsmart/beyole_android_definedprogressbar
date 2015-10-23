@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:beyole="http://schemas.android.com/apk/res/com.beyole.definedprogressbar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.beyole.view.HorizontalProgressbarWithNumbers
+        android:id="@+id/id_myHorizontalProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:padding="5dp" >
+    </com.beyole.view.HorizontalProgressbarWithNumbers>
+
+    <com.beyole.view.RoundProgressbarWithNumbers
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:padding="5dp"
+        android:progress="50"
+        beyole:process_reached_bar_height="20dp"
+        beyole:process_text_color="#ffF53B03"
+        beyole:radius="60dp" />
+
+</LinearLayout>
